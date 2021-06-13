@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AccordionTest from './Accordion';
 import './App.css';
 import Modal from './component/Modal';
 import VelopertApp from './Velopert/VelopertApp';
@@ -22,6 +23,7 @@ function App() {
         <Modal open={modalOpen} close={closeModal} header='Modal heading'>
           리액트 함수형 모달 팝업창입니다. 쉽게 만들 수 있어요. 같이 만들어봐요!
         </Modal>
+        <AccordionTest />
       </>
     </>
   );
